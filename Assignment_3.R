@@ -20,4 +20,11 @@ main = function(){
   print(paste0("Product total: ", product))
 }
 
+reverse = function(x){
+  a = list()
+  for (i in length(x):1)
+    a = append(a, i)
+  return (a)
+}
+
 main()
