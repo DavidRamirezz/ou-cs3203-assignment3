@@ -16,8 +16,10 @@ main = function(){
   list = scan(what = integer())
   sum = sum(list)
   product = product(list)
+  reverselist = reverse(list)
   print(paste0("Sum total: ", sum))
   print(paste0("Product total: ", product))
+  print(paste0("Reversed list: ", toString(reverselist)))
 }
 
 reverse = function(x){
